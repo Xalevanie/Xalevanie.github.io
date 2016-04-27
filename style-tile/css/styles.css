@@ -16,21 +16,23 @@
 /* Textures and Patterns */
 
 .pattern-1 {
-    background-size: cover
-    background: url(http://img.bhs4.com/22/d/22d8ef25c96d26ed651e80cab779fc3dd71f1c5f_large.jpg) no-repeat
+    background-size: cover;
+    background: url(http://img.bhs4.com/22/d/22d8ef25c96d26ed651e80cab779fc3dd71f1c5f_large.jpg) 50% no-repeat;
 }
 .pattern-2 {
-    background: url(../img/Starbucks-logo.gif) no-repeat
+    background-size: cover;
+    background: url(../img/Starbucks-logo.gif) 50% no-repeat;
 }
 .pattern-3 {
-    background: #000;
+    background: grey;
 }
 
 /* Images */
- .imagery-1 img {;
-     box-shadow: 5px 5px 0 blue,
-         10px 10px 0 white,
-         15px 15px 0 red,
+ .imagery-1 img {
+     box-shadow: 5px 5px 5px blue,
+         10px 10px 5px white,
+         15px 15px 5px red;
+     width: 300px;
  }
 /* Icon */
 .icon-1 {
