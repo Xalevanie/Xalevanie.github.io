@@ -1,2 +1,42 @@
+/* Color Palette */
 
+.color-1 {
+    background: red;
+}
+.color-2 {
+    background: white;
+}
+.color-3 {
+    background: blue;
+}
+.color-4 {
+    background: black;
+}
 
+/* Textures and Patterns */
+
+.pattern-1 {
+    background-size: cover
+    background: url(http://img.bhs4.com/22/d/22d8ef25c96d26ed651e80cab779fc3dd71f1c5f_large.jpg) no-repeat
+}
+.pattern-2 {
+    background: url(../img/Starbucks-logo.gif) 45% 
+}
+.pattern-3 {
+    background: #000;
+}
+
+/* Images */
+ .imagery-1 img {
+     box-shadow: 5px 5px 0 blue,
+         10px 10px 0 white,
+         15px 15px 0 red,
+ }
+/* Icon */
+.icon-1 {
+    border: none;
+}
+ .icon-2 {
+    background: url("../img/iconmonstr-smartphone-6-120.png");
+    background-size: contain:
+}
