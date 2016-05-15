@@ -1,4 +1,16 @@
 /* My Styles */
+/* Fancy */
 
-body {background-image: image()}
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+
+body {
+    background: url(../img/dark_wood.png)
+} 
+
+p {
+    color: red;
+    font-family: 'Libre Baskerville', serif;
+}
+
 /* Quote */
+
