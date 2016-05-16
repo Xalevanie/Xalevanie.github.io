@@ -1,15 +1,66 @@
 /* My Styles */
-/* Fancy */
+/* Global */
 
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
 
 body {
-    background: url(../img/dark_wood.png)
+    background: url(../img/dark_wood.png);
 } 
 
+#name {font-size: 26px;
+width: 10em}
+
+header {margin-top: 50px;}
+
+header img {
+    margin-left: 40px;
+    padding: 5px;
+    width: 90px;
+    height: 90px;
+    border-radius: 20%;
+    background-color: rgba(250,235,215,0.43);
+    box-shadow: 
+    0 0 20px 5px rgba(250,235,215,0.1),
+    0 0 20px 10px rgba(250,235,215,0.1),
+    0 0 20px 15px rgba(250,235,215,0.1),
+    0 0 20px 20px rgba(250,235,215,0.1),
+    0 0 20px 25px rgba(250,235,215,0.1),
+    0 0 20px 30px rgba(250,235,215,0.1);
+    
+}
+
+h1 {
+    color: antiquewhite;
+    font-family: 'Libre Baskerville', serif; 
+}
+
+
 p {
-    color: red;
+    color: crimson;
     font-family: 'Libre Baskerville', serif;
+}
+
+/* Navigation */
+
+nav li {
+list-style: none;
+display: inline-block;
+}
+
+nav a:link,
+nav a:visited {
+  color: black;
+  font-weight: bold;
+  background: crimson;
+  text-decoration: none;
+  padding: 1em;
+  transition: all .5s;
+}
+
+nav a:hover,
+nav a:active {
+  background: antiquewhite;
+  margin-left: .5em;
 }
 
 /* Quote */
