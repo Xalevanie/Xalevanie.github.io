@@ -6,6 +6,7 @@
 
 body {
     background: url(../img/dark_wood.png);
+    
 } 
 
 h2 {
@@ -20,7 +21,8 @@ p {
 
 /* Header Stuff */
 
-header {margin-top: 50px;}
+header {margin-top: 50px;
+}
 
 header img {
     margin-left: 35px;
@@ -74,11 +76,26 @@ nav a:active {
 /* Quote */
 
 blockquote {
-    margin-top: 50px;
+   border-radius: 20%;
+    background-color: rgba(250,235,215,0.43);
+    box-shadow: 
+    0 0 20px 5px rgba(250,235,215,0.1),
+    0 0 20px 10px rgba(250,235,215,0.1),
+    0 0 20px 15px rgba(250,235,215,0.1),
+    0 0 20px 20px rgba(250,235,215,0.1),
+    0 0 20px 25px rgba(250,235,215,0.1),
+    0 0 20px 30px rgba(250,235,215,0.1);
+    
+    margin-top: 50px; 
     text-align: center;
+    font-weight: bold;
     font-size: 1.5em;
-    color: crimson;
+    color: black;
     font-family: 'Libre Baskerville', serif;
+    text-shadow: 
+        2px 2px 5px antiquewhite,
+        3px 3px 2px crimson,
+        -4px -4px 4px black;
 }
 
 article img {
