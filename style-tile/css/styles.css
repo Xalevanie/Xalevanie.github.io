@@ -1,13 +1,13 @@
 /* Color Palette */
 
 .color-1 {
-    background: red;
+    background: crimson;
 }
 .color-2 {
-    background: white;
+    background: antiquewhite;
 }
 .color-3 {
-    background: blue;
+    background: ;
 }
 .color-4 {
     background: black;
@@ -21,10 +21,10 @@
 }
 .pattern-2 {
     background-size: cover;
-    background: url(../img/Starbucks-logo.gif) 50% no-repeat;
+    background: url(../img/beige_parchment_paper_background_1800x1600.jpg) 50% no-repeat;
 }
 .pattern-3 {
-    background: grey;
+    background: url(../img/dark_wood.png);
 }
 
 /* Images */
