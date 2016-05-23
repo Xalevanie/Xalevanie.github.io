@@ -1,6 +1,8 @@
 /* My Styles */
 
+/*font-family: 'Libre Baskerville', serif;*/
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+/*font-family: 'Satisfy', cursive;*/
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 
 /* Global */
@@ -82,17 +84,18 @@ nav a:active {
 
 /* Quote */
 
-div {margin: 40px;
+div {margin: 30px;
     margin-top: 50px;
     background-color: rgba(250,235,215,0.4);
     border-style: outset;
     border-width: 10px;
+    border-radius: 3%;
     border-color: darkseagreen;
     padding: 20px;
 }
 
 blockquote {
-    border-radius: 20%;
+    border-radius: 10%;
     background-color: rgba(250,235,215,0.43);
     box-shadow: 
     0 0 20px 5px rgba(250,235,215,0.1),
@@ -105,21 +108,21 @@ blockquote {
     margin-bottom: 20%;
     text-align: center;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.5em;
     color: black;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Satisfy', cursive;
     text-shadow: 
         2px 2px 5px antiquewhite,
-        3px 3px 2px crimson,
-        -4px -4px 4px black;
+        3px 3px 2px maroon,
+        -4px -4px 4px darkslategrey;
 }
 
-article img {
+article img{
     padding: 20px;
-    border-radius: 10%;
+    border-radius: 50%;
     border: inset 10px darkseagreen;
     width: 100%;
-    background-image: url(../img/beige_parchment_paper_background_1800x1600.jpg);
+    background-image: url(../img/dark_wood.png);
 }
 
 
