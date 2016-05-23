@@ -7,24 +7,24 @@
     background: antiquewhite;
 }
 .color-3 {
-    background: ;
+    background: darkseagreen;
 }
 .color-4 {
-    background: black;
+    background: maroon;
 }
 
 /* Textures and Patterns */
 
 .pattern-1 {
     background-size: cover;
-    background: url(http://img.bhs4.com/22/d/22d8ef25c96d26ed651e80cab779fc3dd71f1c5f_large.jpg) 50% no-repeat;
+    background: url(https://texturefabrik.files.wordpress.com/2014/05/texture_fabrik_paper_vol-4_11.jpg) 50% no-repeat;
 }
 .pattern-2 {
     background-size: cover;
-    background: url(../img/beige_parchment_paper_background_1800x1600.jpg) 50% no-repeat;
+    background: url(../img/beige_parchment_paper_background_1800x1600.jpg) 10% no-repeat;
 }
 .pattern-3 {
-    background: url(../img/dark_wood.png);
+    background: url(../img/dark_wood.png) 50%;
 }
 
 /* Images */
@@ -41,7 +41,7 @@
 
  .icon-2 {
     background: url("../img/iconmonstr-smartphone-6-120.png");
-    background-size: contain:
+    background-size: contain;
 }
 
 /* Navigation */
@@ -52,9 +52,9 @@ nav li {
 
 nav a:link {
     background: red;
-    color: antiquewhite
-    border-bottom: 2px solid blue;
-    border-radius: 5px;
+    color: antiquewhite;
+    border-bottom: 3px solid maroon;
+    border-radius: 50%;
     padding: 20px 20px 10px 20px;
     margin: 10px;
     text-decoration: none;
