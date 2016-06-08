@@ -4,6 +4,9 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
 /*font-family: 'Satisfy', cursive;*/
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
+/*font-family: 'Raleway', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:700,500);
+
 
 /* Global */
 
@@ -23,19 +26,24 @@ p {
 }
 
 
+
 /* Header Stuff */
 
 header {
-    padding-bottom: 30px;
+    display: flex;
+    padding-bottom: 10px;
     margin-top: 50px;
     width: auto;
     border-bottom: double 8px;
     border-color: darkseagreen;
     border-radius: 20%;
+    justify-content: flex-end;
+    
 }
 
 header img {
-    margin-left: 15px;
+    margin-left: 55px;
+    margin-top: 10px;
     padding: 5px;
     width: 130px;
     height: 150px;

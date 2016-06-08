@@ -1,3 +1,49 @@
+/*font-family: 'Libre Baskerville', serif;*/
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+/*font-family: 'Satisfy', cursive;*/
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+/*font-family: 'Raleway', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:700,500);
+
+
+
+
+
+
+
+header {
+    padding-bottom: 30px;
+    margin-top: 50px;
+    width: auto;
+    border-bottom: double 8px;
+    border-color: darkseagreen;
+    border-radius: 20%;
+    
+}
+
+header img {
+    margin-left: 15px;
+    padding: 5px;
+    width: 130px;
+    height: 150px;
+    border-radius: 20%;
+    background-color: rgba(250,235,215,0.43);
+    box-shadow: 
+    0 0 20px 5px rgba(250,235,215,0.1),
+    0 0 20px 10px rgba(250,235,215,0.1),
+    0 0 20px 15px rgba(250,235,215,0.1),
+    0 0 20px 20px rgba(250,235,215,0.1),
+    0 0 20px 25px rgba(250,235,215,0.1),
+    0 0 20px 30px rgba(250,235,215,0.1);
+}
+
+#name {
+    font-size: 3em;
+    width: 10em;
+    color: antiquewhite;
+    font-family: 'Satisfy', cursive;
+    text-shadow: 3px 3px 3px maroon;
+}
 /* Color Palette */
 
 .color-1 {
@@ -40,36 +86,36 @@
 }
 
  .icon-2 {
-    background: url("../img/iconmonstr-smartphone-6-120.png");
+    background: url("../img/noun_388364_cc.svg");
     background-size: contain;
 }
 
 /* Navigation */
 nav li {
+    margin-top: inherit;
+    padding: 10px;
     list-style: none;
-    float: left;
+    display: inline-flex;
 }
 
-nav a:link {
-    background: red;
-    color: antiquewhite;
-    border-bottom: 3px solid maroon;
-    border-radius: 50%;
-    padding: 20px 20px 10px 20px;
-    margin: 10px;
-    text-decoration: none;
-}
-
+nav a:link,
 nav a:visited {
-    color:white
+  color: black;
+  font-weight: bold;
+  background: crimson;
+  text-decoration: none;
+  padding: .8em;
+  transition: all .5s;
+  border-bottom: 3px solid maroon;
+  border-radius: 50%;
 }
 
-nav a:focus {
-    border: 10px solid red;
+nav a:hover,
+nav a:active {
+  background: antiquewhite;
+  margin-left: .5em;
 }
 
-nav a:hover {
-    background: white;
-    color: indianred;
-    margin-top: 20px;
+p {
+    font-family: 'Raleway', sans-serif;
 }
