@@ -12,7 +12,7 @@
 
 body {
     background: url(../img/dark_wood.png);
-    
+    background-attachment: fixed;
 } 
 
 h2 {

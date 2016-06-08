@@ -11,20 +11,43 @@
 
 body {
     background: url(../img/dark_wood.png);
+    background-attachment: fixed;
     
 } 
 
+h1 {
+    color: antiquewhite;
+    text-shadow: 3px 3px 3px black;
+    font-family: 'Libre Baskerville', serif;  
+}
+
 h2 {
     color: antiquewhite;
-    text-shadow: 3px 3px 3px maroon;
+    text-shadow: 3px 3px 3px black;
     font-family: 'Libre Baskerville', serif; 
 }
+
+h3 {
+    color: black;
+    text-shadow: 3px 3px 3px darkslategrey;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h4 {
+    color: black;
+    text-shadow: 3px 3px 3px maroon;
+    font-family: 'Libre Baskerville', serif;
+} 
 
 p {
     color: maroon;
     font-family: 'Libre Baskerville', serif;
     font-size: 18px;
 }
+
+
+
+
 
 
 /* Header Stuff */
@@ -64,7 +87,7 @@ header img {
     color: antiquewhite;
     font-family: 'Satisfy', cursive;
     text-shadow: 3px 3px 3px maroon;
-}
+    }
 
 
 /* Navigation Bar */
@@ -137,6 +160,19 @@ article img{
     background-image: url(../img/dark_wood.png);
 }
 
+#resume {
+    border-top: double 8px;
+    border-bottom: double 8px;
+    border-color: darkseagreen;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    margin-top: 100px;
+    color: antiquewhite;
+    font-family: 'Satisfy', cursive;
+    text-shadow: 3px 3px 3px maroon;
+}
 
 
 
