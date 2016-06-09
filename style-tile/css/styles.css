@@ -7,22 +7,29 @@
 
 
 
+/* Global and Header*/
 
+body {
+    background-image: url(../../img/dark_wood.png);
+    background-attachment: fixed;
+        }
 
 
 
 header {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     margin-top: 50px;
     width: auto;
     border-bottom: double 8px;
     border-color: darkseagreen;
     border-radius: 20%;
+    justify-content: flex-end;
     
 }
-
+ 
 header img {
-    margin-left: 15px;
+    margin-left: 100px;
+    margin-top: 10px;
     padding: 5px;
     width: 130px;
     height: 150px;
@@ -43,6 +50,26 @@ header img {
     color: antiquewhite;
     font-family: 'Satisfy', cursive;
     text-shadow: 3px 3px 3px maroon;
+    }
+header li img {
+    width: 60%;
+    height: 50px;
+    margin-left: 17px;
+    box-shadow: none;
+    border-radius: none;
+    background: none;
+    
+}
+
+div {
+    align-content: space-between;
+    margin-top: 50px;
+    background-color: rgba(250,235,215,0.4);
+    border-style: outset;
+    border-width: 10px;
+    border-radius: 3%;
+    border-color: darkseagreen;
+    padding: 20px;
 }
 /* Color Palette */
 
@@ -75,25 +102,24 @@ header img {
 
 /* Images */
  .imagery-1 img {
-     box-shadow: 5px 5px 5px blue,
-         10px 10px 5px white,
-         15px 15px 5px red;
+     box-shadow: 1px 1px 5px antiquewhite,
+         10px 10px 7px antiquewhite,
+         15px 15px 10px antiquewhite;
      width: 300px;
  }
 /* Icon */
 .icon-1 {
-    border: none;
+    border: double darkseagreen;
 }
 
  .icon-2 {
-    background: url("../img/noun_388364_cc.svg");
+    background-color: crimson;
     background-size: contain;
 }
 
 /* Navigation */
 nav li {
     margin-top: inherit;
-    padding: 10px;
     list-style: none;
     display: inline-flex;
 }
@@ -104,7 +130,6 @@ nav a:visited {
   font-weight: bold;
   background: crimson;
   text-decoration: none;
-  padding: .8em;
   transition: all .5s;
   border-bottom: 3px solid maroon;
   border-radius: 50%;

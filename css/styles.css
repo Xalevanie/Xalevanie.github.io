@@ -72,9 +72,14 @@ ol {
 ul {
     color: maroon;
     font-family: 'Libre Baskerville', serif;
-    font-size: 18px;
+    font-size: 16px;
     list-style-image: url(../img/noun_388364_cc.svg);
  
+}
+
+.resume h1 {
+    padding-top: 30px;
+    text-align: center;
 }
 
 .resume section {
@@ -84,6 +89,17 @@ ul {
     border-color: maroon;
     height: auto;
 }
+
+.resume img {
+    width: 130px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.contact {
+    display: flex;
+align-content: center;
+padding: 20px;}
 
 
 
@@ -126,9 +142,6 @@ header img {
     text-shadow: 3px 3px 3px maroon;
     }
 
-
-/* Navigation Bar */
-
 header li img {
     width: 60%;
     height: 50px;
@@ -138,6 +151,9 @@ header li img {
     background: none;
     
 }
+
+
+/* Navigation Bar */
 
 nav li {
     padding: 5px;
