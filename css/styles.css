@@ -23,29 +23,67 @@ h1 {
 
 h2 {
     color: antiquewhite;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 2px 2px 4px black;
     font-family: 'Libre Baskerville', serif; 
 }
 
 h3 {
-    color: black;
-    text-shadow: 3px 3px 3px darkslategrey;
+    color: maroon;
     font-family: 'Libre Baskerville', serif;
 }
 
 h4 {
-    color: black;
-    text-shadow: 3px 3px 3px maroon;
+    color: maroon;
+    text-shadow: 3px 3px 3px darkslategrey;
     font-family: 'Libre Baskerville', serif;
 } 
 
 p {
+    padding: 5px; 
+    color: maroon;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    background-image: url(../img/beige_parchment_paper_background_1800x1600.jpg);
+    margin-bottom: 10px;
+    border: double 12px;
+    border-color: maroon;
+    height: auto;
+}
+
+p.extra {
+    background-image: none;
+    border: none;
+}
+
+dl {
+    color: maroon;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+
+}
+
+ol {
+    color: maroon;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    
+}
+
+ul {
     color: maroon;
     font-family: 'Libre Baskerville', serif;
     font-size: 18px;
+    list-style-image: url(../img/noun_388364_cc.svg);
+ 
 }
 
-
+.resume section {
+    background-image: url(../img/beige_parchment_paper_background_1800x1600.jpg);
+    margin-bottom: 10px;
+    border: double 12px;
+    border-color: maroon;
+    height: auto;
+}
 
 
 
@@ -53,7 +91,6 @@ p {
 /* Header Stuff */
 
 header {
-    display: flex;
     padding-bottom: 10px;
     margin-top: 50px;
     width: auto;
@@ -100,7 +137,7 @@ nav li {
 
 nav a:link,
 nav a:visited {
-  color: black;
+  color: darkslategrey;
   font-weight: bold;
   background: crimson;
   text-decoration: none;
@@ -119,7 +156,8 @@ nav a:active {
 
 /* Quote */
 
-div {margin: 30px;
+div {
+    align-content: space-between;
     margin-top: 50px;
     background-color: rgba(250,235,215,0.4);
     border-style: outset;

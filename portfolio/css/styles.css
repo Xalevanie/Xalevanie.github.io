@@ -30,7 +30,6 @@ p {
 /* Header Stuff */
 
 header {
-    display: flex;
     padding-bottom: 10px;
     margin-top: 50px;
     width: auto;
