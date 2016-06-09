@@ -42,7 +42,7 @@ header {
     }
 
 header img {
-    margin-left: 55px;
+    margin-left: 100px;
     margin-top: 10px;
     padding: 5px;
     width: 130px;
@@ -135,20 +135,30 @@ nav a:active {
 }
 
 a.lb:hover {cursor:default;}
-a img:hover {cursor:pointer;}
+a img:hover {cursor:pointer;
+    }
+
 
 .pic img {
+    margin: 10px;
     padding: 20px;
     border-radius: 50%;
     border: inset 5px darkseagreen;
     background-image: url(../img/dark_wood.png);
     width: 200px; 
     height: 200px;
+    
+}
+
+.pic img:hover {
+    transition: 1s;
+    transform: rotate(180deg)
 }
 
 div {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 50px;
     background-color: rgba(250,235,215,0.4);
     border-style: outset;
