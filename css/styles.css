@@ -100,7 +100,7 @@ header {
     justify-content: flex-end;
     
 }
-
+ 
 header img {
     margin-left: 55px;
     margin-top: 10px;
@@ -129,19 +129,26 @@ header img {
 
 /* Navigation Bar */
 
+header li img {
+    width: 60%;
+    height: 50px;
+    margin-left: 17px;
+    box-shadow: none;
+    border-radius: none;
+    background: none;
+    
+}
+
 nav li {
-    padding: 10px;
+    padding: 5px;
     list-style: none;
-    display: inline-flex;   
+    display: inline-flex;
 }
 
 nav a:link,
 nav a:visited {
-  color: darkslategrey;
-  font-weight: bold;
   background: crimson;
   text-decoration: none;
-  padding: .8em;
   transition: all .5s;
   border-bottom: 3px solid maroon;
   border-radius: 50%;
@@ -152,7 +159,6 @@ nav a:active {
   background: antiquewhite;
   margin-left: .5em;
 }
-
 
 /* Quote */
 
